@@ -20,17 +20,17 @@ type Palette map[string][]uint32
 // GetDefaultPalette returns a default palette
 func GetDefaultPalette() *Palette {
 	return &Palette{
-		"red":       {255, 0, 0},
-		"orange":    {255, 165, 0},
-		"yellow":    {255, 255, 0},
-		"green":     {0, 255, 0},
-		"turquoise": {0, 222, 222},
-		"blue":      {0, 0, 255},
-		"violet":    {128, 0, 255},
-		"pink":      {255, 0, 255},
-		"brown":     {160, 82, 45},
-		"black":     {0, 0, 0},
-		"white":     {255, 255, 255},
+		"bred":       {255, 0, 0},
+		"borange":    {255, 165, 0},
+		"byellow":    {255, 255, 0},
+		"bgreen":     {0, 255, 0},
+		"bturquoise": {0, 222, 222},
+		"bblue":      {0, 0, 255},
+		"bviolet":    {128, 0, 255},
+		"bpink":      {255, 0, 255},
+		"bbrown":     {160, 82, 45},
+		"bblack":     {0, 0, 0},
+		"bwhite":     {255, 255, 255},
 	}
 }
 
